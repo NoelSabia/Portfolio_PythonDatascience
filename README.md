@@ -1,8 +1,8 @@
 # Data Science that makes you happy
 
 # Table of contents
-- [Panda](# Panda)
-- [Seaborn] (# Seaborn)
+- [Panda](# 🐼 Panda)
+- [Seaborn] (# 🌊 Seaborn)
 
 
 # 🐼 Panda
