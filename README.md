@@ -16,12 +16,26 @@ pip install seaborn
 2. Choose which Data should be visualized
 
 # Data
+## Where you can get (interesting) .csv files
 I used [kaggle](https://www.kaggle.com/) to get my hands on some useful Data. Follwoing Datasets were used:
-- [Car_Sales.CSV](https://www.kaggle.com/datasets/missionjee/car-sales-report)
-- [Salary_Data](https://www.kaggle.com/datasets/mohithsairamreddy/salary-data?rvi=1)
+- [Car_Sales.csv](https://www.kaggle.com/datasets/missionjee/car-sales-report)
+- [Salary_Data.csv](https://www.kaggle.com/datasets/mohithsairamreddy/salary-data?rvi=1)
+
+## What I wanted to extract from the data
+### Car Sales
+- Gender vs. Transmission
+- Annual Income vs. Price($)
+- Gender vs. Price($)
+- Model vs. Gender
+- Color vs. Price($)
+- Trend for selling Cars (2 year period)
+
+### Salary Data
+- Age vs. Years of Experience vs. Salary
+- Education Level vs. Gender vs. Salary
 
 # 🐼 Panda
-
+In short: A library for Python to do Data Science with it.
 
 # 🌊 Seaborn
 
@@ -30,10 +44,7 @@ I used [kaggle](https://www.kaggle.com/) to get my hands on some useful Data. Fo
 |Goal of the day|Date|
 |-|-|
 |Create Dockerfile, .json file and start with understanding pandas|04.02.2024|
-
+|Start with the salary_data class|05.02.2024|
 
 Just for me:
-- entsprechende klasse ausloesen
-- daten oeffnen und daten auswerten
-- entsprechende optionen fuer seaborn anbieten
-- oeffnen und warten ob noch was kommt
+- ich muss mir ueberlegen wie ich das die strings angezeigt bekomme
