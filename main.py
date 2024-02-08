@@ -22,9 +22,6 @@ def	main():
 		salary_data = Salary_Data()
 	elif num == 2:
 		car_sales = Car_Sales()
-	else:
-		print("Invalid Input.")
-		main()
 
 
 main()
