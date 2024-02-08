@@ -1,7 +1,5 @@
-from sklearn.preprocessing import LabelEncoder
 import pandas as pd
 import matplotlib.pyplot as plt
-import matplotlib
 import numpy as np
 
 class Salary_Data:
@@ -41,9 +39,8 @@ class Salary_Data:
 		try:
 			fig = plt.figure()
 			td = fig.add_subplot(111, projection='3d')
-			le = LabelEncoder()
-			self.data['Education Level'] = le.fit_transform(self.data['Education Level'])
-			self.data['Gender'] = le.fit_transform(self.data['Gender'])
+			self.data['Education Level'] = self.data['Education Level'].map({'High School': 0, "Bachelor's Degree": 1, "Master's Degree": 2, 'PhD': 3})
+			self.data['Gender'] = self.data['Gender'].map({'Female': 0, 'Male': 1})
 			x = np.linspace(min(self.data['Education Level']), max(self.data['Education Level']), num=100)
 			y = np.linspace(min(self.data['Gender']), max(self.data['Gender']), num=100)
 			x, y = np.meshgrid(x, y)

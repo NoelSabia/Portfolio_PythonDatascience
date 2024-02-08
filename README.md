@@ -26,8 +26,6 @@ I used [kaggle](https://www.kaggle.com/) to get my hands on some useful Data. Fo
 - Gender vs. Transmission
 - Annual Income vs. Price($)
 - Gender vs. Price($)
-- Model vs. Gender
-- Color vs. Price($)
 - Trend for selling Cars (2 year period)
 
 ### Salary Data
@@ -47,4 +45,4 @@ In short: A library for Python to do Data Science with it.
 |Start with the salary_data class|05.02.2024|
 
 Just for me:
-- ich muss mir ueberlegen wie ich das die strings angezeigt bekomme
+- ich muss mir ueberlegen wie ich die strings angezeigt bekomme
