@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 #Class for Salary Data
 class Salary_Data:
@@ -11,7 +12,7 @@ class Salary_Data:
 	def choose(self):
 		while True:
 			try:
-				self.num = int(input("(1) Age vs. Years of Experience vs. Salary\n(2) Education Level vs. Gender vs. Salary\n(0)Exit\nChoose: "))
+				self.num = int(input("(1) Age vs. Years of Experience vs. Salary\n(2)Gender vs. Salary\n(0)Exit\nChoose: "))
 				if self.num in [0,1, 2]:
 					break
 				else:
@@ -45,7 +46,9 @@ class Salary_Data:
 	def show_chart2(self):
 		try:
 			df = self.data
-
+			sns.histplot(df, x='Salary', hue='Gender', multiple='stack')
+			plt.xlabel('Salary')
+			plt.ylabel('Amout of People')
 			self.choose()
 		except Exception as e:
 			print(f"An error occurred: {e}")
