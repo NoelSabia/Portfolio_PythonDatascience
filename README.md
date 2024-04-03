@@ -3,7 +3,7 @@
 # Table of contents
 - [How to install and use it](#how_to_install_and_use_it)
 - [Data](#data)
-- [Panda](#-panda)
+- [Panda](#-panda_usage_in_this_project)
 - [Seaborn](#-seaborn)
 
 # How to install and use it
